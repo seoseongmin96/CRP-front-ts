@@ -10,7 +10,7 @@ const MusicPlayPage = () => {
         <BreadcrumbItem href="/" startIcon={<i className="fas fa-home"></i>}>
                 홈
               </BreadcrumbItem>
-              <BreadcrumbItem>음원검색창</BreadcrumbItem>
+              <BreadcrumbItem>음원검색</BreadcrumbItem>
             </Breadcrumb>
         <MusicPlay/>
         </div>

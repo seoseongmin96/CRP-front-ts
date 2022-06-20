@@ -29,7 +29,7 @@ const data: NavigationItem[] = [
     active: ['/community/'],
     subMenu: [
       { title: '문의하기', link: '/community/faq' },
-      { title: '자유게시판', link: '/community/list' },
+     // { title: '자유게시판', link: '/community/list' },
      // { title: 'Post standard', link: '/post/post-standard' },
      // { title: 'Post standard cover fullwidth', link: '/post/post-cover-fullwidth' },
      // { title: 'Post standard sidebar', link: '/post/post-standard-sidebar' },
@@ -47,7 +47,7 @@ const data: NavigationItem[] = [
       { title: '표절검사', link: '/program/plagiarism/upload' },
       { title: '악보분석', link: '/program/analysis/upload' },
       { title: '음원검색', link: '/program/music/musicPlay' },
-      { title: '작곡', link: '/others/contact' },
+    //  { title: '작곡', link: '/others/contact' },
     //  { title: 'Shop', link: '/others/shop' },
     //  { title: 'Product detail', link: '/others/product-detail' },
     //  { title: 'Cart', link: '/others/cart' },

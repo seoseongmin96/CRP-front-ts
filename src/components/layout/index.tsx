@@ -1,5 +1,5 @@
 import { ThemeVariation } from '@common/enum';
-import Footer from '@components/footer';
+import Footer from '@components/footer/Footer';
 import Header from '@components/header';
 import { SECTION_SPACING } from 'common/variables';
 import Head from 'next/head';
@@ -23,10 +23,10 @@ const Layout = ({ children, showHeaderSpacing = true, title, theme }: LayoutProp
       <Head>
         <title>{title}</title>
       </Head>
-      <Header theme={theme} />
-      {showHeaderSpacing && <HeaderSpacing />}
+      <Header theme={theme}/>
+      {showHeaderSpacing && <HeaderSpacing/>}
       {children}
-      <Footer theme={theme} />
+      <Footer theme={theme}/>
     </>
   );
 };

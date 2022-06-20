@@ -8,6 +8,7 @@ import { renderThemeClass } from '@common/functions';
 import HeaderSearch from './shared/search';
 import SlideEffect from '@components/animation/slide-effect';
 
+
 const Header = ({ theme }: { theme?: 'primary' | 'secondary' | 'third' | 'fourth' }) => {
   const [isOpenNavMobile, setIsOpenNavMobile] = useState<boolean>(false);
   const [shouldShowSearch, setShouldShowSearch] = useState(false);
@@ -20,10 +21,10 @@ const Header = ({ theme }: { theme?: 'primary' | 'secondary' | 'third' | 'fourth
           <SlideEffect in={shouldShowSearch}>
             <HeaderSearch />
           </SlideEffect>
-          <div className="header-wrapper">
+          <div className="header-wrapper" >
             <Link href="/">
               <a className="header-logo" href="/">
-                <img src="https://ifh.cc/g/KtohFH.png" alt="Logo" style={{width:90+"px"}}/>
+                <img src="https://ifh.cc/g/KtohFH.png" alt="Logo" style={{width:"120px" ,height:"35px" }}/>
               </a>
             </Link>
             <Navigation isOpenNavMobile={isOpenNavMobile} setIsOpenNavMobile={setIsOpenNavMobile} />
@@ -36,13 +37,13 @@ const Header = ({ theme }: { theme?: 'primary' | 'secondary' | 'third' | 'fourth
                 <i className="fas fa-search" />
               </GUButton>
               <div className="social">
-                <Socials color={theme} className="header-icons__item" spacing={20} variant="link" />
+                <Socials color={theme} className="header-icons__item" spacing={20} variant="link"/>
                 <GUButton
                   color={theme}
                   onClick={() => setIsOpenNavMobile(!isOpenNavMobile)}
                   className="header-icons__item header-icons__menu-controller"
                   variant="link">
-                  <i className="fas fa-bars" />
+                  <i className="fas fa-bars"/>
                 </GUButton>
               </div>
             </div>

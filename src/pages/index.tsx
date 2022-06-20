@@ -1,5 +1,3 @@
-
-
 import Layout from '@components/layout';
 import PostListMasonryThreeColumn from '@components/posts-layout/masonry-three-column';
 import Instagram from '@components/sections/instagram';

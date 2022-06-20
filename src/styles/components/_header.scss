@@ -13,9 +13,10 @@ header {
     @include flexAlign(center, space-between);
     .header-logo {
       img {
-        max-height: emCal(14, 25);
+        max-height : 15em;
         object-fit: contain;
         margin-right: auto;
+       
       }
     }
     nav {

@@ -41,12 +41,11 @@ const Instagram = ({ fullWidth, theme }: { fullWidth?: boolean; theme?: ThemeVar
         <Slider {...settings}>
           {INSTAGRAM_DATA.map((item, index) => (
             <div key={index}>
-              <a className="instagrams-item" href={item.link}>
-                
-                <img src={item.image} alt="Instagram image" />
+              <a className="instagrams-item" href={item.link}> 
+                <img src={item.image} alt="Instagram image"/>
                 <div className="instagrams-item__content">
-                  <i className="fab fa-instagram"></i>
-                  <p>@ Gtute_News</p>
+                  
+                  <p>@ CRP</p>
                 </div> 
               </a>
             </div>

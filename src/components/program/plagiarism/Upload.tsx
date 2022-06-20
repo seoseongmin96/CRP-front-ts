@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
 import style from '@/styles/Float.module.css'
+
 const fileTypes = ["JPG", "PNG", "GIF"];
 
 export function Upload() { // yarn add react-drag-drop-files
@@ -18,6 +19,5 @@ export function Upload() { // yarn add react-drag-drop-files
             <img src='https://ifh.cc/g/5y48Hl.png' className={style.my} style={{width:40+"px", height:40+"px"}}/>
         </a>
       </div>
-      
   );
 }

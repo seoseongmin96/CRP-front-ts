@@ -44,6 +44,7 @@ export function Home() {
     <>
     <main role="main">
       <div className="container">
+     
       <div className="position-relative overflow-hidden p-6 p-md-3 m-md-1 text-center text-light bg-image" style={{backgroundImage: "url('https://images.unsplash.com/photo-1530950774950-6376cbdcf385?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzE1fHxtdXNpY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600')"}}>
       {/* <div class="bg-image" style={{backgroundImage: "url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg')", height:30+"vh"}}> */}
         <div className="col-md-11 p-lg-5 mx-auto my-4">

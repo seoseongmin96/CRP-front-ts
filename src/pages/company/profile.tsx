@@ -2,7 +2,7 @@ import Layout from '@components/layout';
 import React, {useState} from 'react';
 import { Profile } from '@components/company/Profile';
 import Breadcrumb, {BreadcrumbItem} from '@components/other/breadcrumb';
-import Footer from '@components/footer';
+import Footer from '@components/footer/Footer';
 const ProfilePage = () => {
     return (
     <Layout title= "profile us">
@@ -14,7 +14,6 @@ const ProfilePage = () => {
           <BreadcrumbItem>개발자 소개</BreadcrumbItem>
         </Breadcrumb>
     <Profile/>
-    
     </div>
     </Layout>
     
